@@ -1,1 +1,1 @@
-pytelegrambotapi==4.3.1
+worker: python3 bot2.py
