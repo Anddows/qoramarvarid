@@ -1,7 +1,5 @@
 import telebot
 import sqlite3
-import botprices
-
 
 bot = telebot.TeleBot('5069229827:AAGeSTmQAFs-smOCQ1KoFa7OS9vtXZyLC8Y')
 
