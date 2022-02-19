@@ -21,10 +21,10 @@ def start_message(message):
         users_id = [message.from_user.id]
         cursor.execute("INSERT INTO login_id VALUES(?);", users_id)
         connect.commit()
-        bot.reply_to(message, "Qora Marvarid")
+        bot.reply_to(message, "Qora Marvarid 1.0")
 
     else:
-        bot.reply_to(message, "Yana sizni ko'rayotganimizdan hursandmiz")
+        bot.send_message(message.chat.id, "Qora Marvarid 1.0")
 
 @bot.message_handler(content_types = ['text'])
 def send_message(message):
